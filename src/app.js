@@ -35,7 +35,10 @@ const showFood=(filter)=>{
     name.textContent=restaurant.nombre;
     
     
-      
+    let mapa=document.createElement('img');
+    mapa.setAttribute('src',restaurant.mapa);
+    mapa.setAttribute('width','500px');
+    mapa.setAttribute('height','350px');
     let list=document.createElement('div');
     let elementOne=document.createElement('p');
     elementOne.textContent=`Dirección: ${restaurant.direccion}`;
@@ -46,6 +49,7 @@ const showFood=(filter)=>{
     let elementFour=document.createElement('p');
     elementFour.textContent=`Tipo: ${restaurant.tipo}`;
 
+    list.appendChild(mapa);
     list.appendChild(elementOne);
     list.appendChild(elementTwo);
     list.appendChild(elementThree);
