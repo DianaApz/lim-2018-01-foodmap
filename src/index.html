@@ -8,9 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <h1 id="rest"></h1> -->
-    <input type="text" id="rest" placeholder="comida ..." title="Type in a food">
-    <div id="part"></div>
+    <div id="loader">
+       <p class="ploader">Foodmap</p>
+    </div>
+    <div class="page">
+      <p class="tittle">Foodmap</p>
+      <hr class="line">
+      <img class="image" src="distritos.JPG" alt="distritos">
+      <p class="phrase"><span>Comida cerca de ti</span><br> 
+      <input type="text" class="input" id="searchFood" placeholder="Buscar por tipo de comida ..." title="Type in a food"></p>
+      <div id="part" class="parts"></div>
+    </div>
     <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
     <script>
         // Initialize Firebase
