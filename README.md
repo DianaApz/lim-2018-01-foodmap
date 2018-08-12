@@ -7,7 +7,7 @@ Crear una web-app en donde el usuario pueda buscar por tipo de comida , precio u
 
 1. El usuario puede buscar por tipo de comida y aparecerán los restaurantes que cumplan con esa condición.
 
-2. Al seleccionar alguna foto se podrá visualizar la información del restaurant al que corresponde.
+2. Al seleccionar alguna foto se podrá visualizar la información del restaurante al que corresponde.
 La información que aparecerá es :
 - El nombre del restaurante.
 - El mapa de la ubicación.
@@ -17,4 +17,4 @@ La información que aparecerá es :
 
 3. Para cerrar debe seleccionar x y podrá seguir buscando más alternativas.
 
-![map](map.gif)
+![fmap](src/fmap.gif)
