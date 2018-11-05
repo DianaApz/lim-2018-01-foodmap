@@ -37,6 +37,7 @@ const showFood=(filter)=>{
     
     let mapa=document.createElement('img');
     mapa.setAttribute('src',restaurant.mapa);
+    mapa.setAttribute('class','imgModal')
     mapa.setAttribute('width','500px');
     mapa.setAttribute('height','350px');
     let list=document.createElement('div');

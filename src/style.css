@@ -1,14 +1,14 @@
-body{padding:0px;
-    margin: 0px;
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
 }
-.page{
-    padding:0px;
-    margin: 0px;
-    
-    width: 100%;
+.page{   
+    /* width: 100%; */
     font-family: sans-serif;
     background-color: rgb(46, 45, 45);
-    position:absolute;
+    /* position:absolute; */
 
 }
 #loader{
@@ -30,7 +30,7 @@ body{padding:0px;
     color: rgb(221, 127, 4); 
 } 
 .tittle{
-    padding:5%;
+    padding:5% 0%;
     margin: 0px;
     font-size:60px;
     color: rgb(221, 127, 4); 
@@ -41,13 +41,13 @@ body{padding:0px;
 }
 .phrase{
     
-    padding: 5%;
+    padding: 5% 0%;
     text-align: center;
     font-size: 40px;
     color:rgb(228, 143, 33);
 }
 .input{
-    width: 50%;
+    /* width: 50%; */
     height:30px;
     font-size: 20px;
 }
@@ -101,11 +101,6 @@ body{padding:0px;
     font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
-   
-   *{
-       padding: 0;
-       margin: 0;
-    }
     .tittle{
     
         font-size:30px;
@@ -145,4 +140,71 @@ body{padding:0px;
     }
     
 }
+/* 768 */
+@media only screen and (max-width: 768px) {
+    .image{
+        width: 300px;
+    }
+}
+/* 640 */
+@media only screen and (max-width: 640px) {
+    
+}
+/* pixel 2 411 */
+@media only screen and (max-width: 420px) {
+    
+}
+/* LG 384 */
+@media only screen and (max-width: 390px) {
+    .image{
+        width: 300px;
+        padding:0% 0% 0% 12%;
+        text-align: center
+    }
+    .ploader{
+        padding:15% 20%;
+        font-size:40px;
+    } 
+    .input{
+        padding:0% 5% 0% 0%;
+        width: 40%;
+        height:30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .infoModal{
+        background-color:white;
+        margin: 20% 15%;
+        padding: 30px;
+        width:70%;
+       
+    }
+    .imgModal{
+        width: 200px;
+        height: 150px;
+    }
+    .btn{
+        border: 1px;
+        width: 150px; 
+        height: 70px;
+    }
+    .parts{
+        padding: 0px;
+        /* text-align: center */
+        
+    }
+
+}
+/* iphone 320*/
+@media only screen and (max-width: 320px) {
+    .image{
+        width: 100px;
+        padding: 0%;
+    }
+    .ploader{
+        padding:15% 28%;
+        font-size:40px;
+    } 
+}
+
 
